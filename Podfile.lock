@@ -1,0 +1,24 @@
+PODS:
+  - NSData+FastHex (1.0.1)
+  - OpenSSL-for-iOS (1.0.2.d.1)
+
+DEPENDENCIES:
+  - NSData+FastHex
+  - OpenSSL-for-iOS (from `https://github.com/dapperstout/OpenSSL-for-iPhone.git`,
+    branch `master`)
+
+EXTERNAL SOURCES:
+  OpenSSL-for-iOS:
+    :branch: :master
+    :git: https://github.com/dapperstout/OpenSSL-for-iPhone.git
+
+CHECKOUT OPTIONS:
+  OpenSSL-for-iOS:
+    :commit: 8cd8b85f4a46b96c75528e6d64fbb9e0bd023a67
+    :git: https://github.com/dapperstout/OpenSSL-for-iPhone.git
+
+SPEC CHECKSUMS:
+  NSData+FastHex: a22ad031ee10a4297d0bf4d20cf03406a4476169
+  OpenSSL-for-iOS: d7a30add88a1969b052135adbe48452af231ed32
+
+COCOAPODS: 0.38.2
